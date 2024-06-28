@@ -1,0 +1,89 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+.heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color:#000;
+    margin-bottom: 25px;
+    position: relative;
+    
+
+}
+.heading h1::after{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+}
+.heading p{
+    font-size:30px;
+    color: #666;
+    margin-bottom: 35px;
+    
+}
+.about
+{
+    margin-top: 0%;
+    width: 100%;
+    padding:78px 0px;
+    
+}
+.about img{
+    height: 400px;
+    width:600px;
+}
+.about-content{
+    width:600px;
+
+}
+.about-image{
+    width:1130px;
+    max-width:95%;
+    margin : 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-content h2{
+    color: black;
+    font-size:30px;
+    text-transform: capitalize;
+    margin-bottom: :30px;
+    margin-left:20%;
+}
+.about-content p{
+    color:#4caf50;
+    font-size: 20px;
+    margin-left: 30;
+    letter-spacing: 2px;
+}
+.about-content a{
+    margin-left:30%;
+}
+.about-content a button{
+    background: #4caf50;
+    color: #f2f2f2;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding :13px 30px;
+    border-radius: 30px;
+}
